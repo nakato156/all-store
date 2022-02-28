@@ -1,0 +1,108 @@
+.products{
+    padding: 20px;
+    width: 100%;
+    height: 100vh;
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.product{
+    display: flex;
+    flex-wrap: wrap;
+    width: 230px;
+    height: 300px;
+    border: 1px solid #000;
+    margin-bottom: 50px;
+}
+.img-product{
+    width: 100%;
+    height: 200px;
+    bottom: 0;
+}
+.img-product>img{
+    width: 100%;
+    height: 100%;
+}
+.product-info{
+    padding: 5px;
+    width: 85%;
+}
+.product-info>p{
+    margin: 0;
+}
+.carousel, .carousel-inner> .carousel-item, .carousel-inner> .carousel-item> img {
+    max-height: 550px;
+}
+.addcar{
+    width: 13%;
+    bottom: 0;
+    height: 30px;
+    display: flex;
+}
+.bxs-cart-add{
+    position: absolute;
+    cursor: pointer;
+    font-size: 29px;
+}
+.cont-shopcar{
+    position: fixed !important;
+    bottom: 45px;
+    right: 20px;
+}
+.shopcar{
+    padding: 0;
+    text-align: center;
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+}
+.shopcar>i{
+    font-size: 24px;
+}
+.btn_shop_animated {
+    color: #6cfa7f;
+    -webkit-animation: animate-btn-shop 0.5s both;
+    animation: animate-btn-shop 0.5s both;
+}
+@-webkit-keyframes animate-btn-shop{
+    0% {
+        -webkit-transform: scale3d(1, 1, 1);
+        transform: scale3d(1, 1, 1);
+    }
+    30% {
+        -webkit-transform: scale3d(1.25, 0.75, 1);
+        transform: scale3d(1.25, 0.75, 1);
+    }
+    40% {
+        -webkit-transform: scale3d(0.75, 1.25, 1);
+        transform: scale3d(0.75, 1.25, 1);
+    }
+    50% {
+        -webkit-transform: scale3d(1.15, 0.85, 1);
+        transform: scale3d(1.15, 0.85, 1);
+    }
+    65% {
+        -webkit-transform: scale3d(0.95, 1.05, 1);
+        transform: scale3d(0.95, 1.05, 1);
+    }
+    75% {
+        -webkit-transform: scale3d(1.05, 0.95, 1);
+        transform: scale3d(1.05, 0.95, 1);
+    }
+    100% {
+        -webkit-transform: scale3d(1, 1, 1);
+        transform: scale3d(1, 1, 1);
+    }
+}
+
+@media (max-width: 600px){
+    .product{
+        width: 70%;
+        height: 380px;
+        margin: auto;
+        margin-bottom: 25px;
+    }
+    .img-product{
+        height: 260px;
+    }
+}

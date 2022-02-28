@@ -1,0 +1,20 @@
+.shopcar{
+    width: 100%;
+    justify-content: space-between;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+.shopcar-table{
+    width: 64%;
+}
+.client-form{
+    width: 33%;
+}
+.btn_payment{
+    display: flex;
+    width: 100%;
+}
+.btn_payment>form{
+    margin-left: 85%;
+}

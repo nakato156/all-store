@@ -1,0 +1,89 @@
+<link rel="stylesheet" href="./css/home.css">
+<div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="../img/carousel_1.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="../img/carousel_2.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="../img/carousel_3.jpg" class="d-block w-100" alt="...">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+</div>
+<section id="products" class="products">
+    <div class="product">
+        <a class="img-product" href="">
+            <img src="./img/car-charger.png" alt="">
+        </a>
+        <div class="product-info">
+            <p class="description">algoo</p>
+            <p class="price">S/900</p>
+        </div>
+        <div class="addcar">
+            <i class='bx bxs-cart-add'></i>
+        </div>
+    </div>
+    <div class="product">
+        <a class="img-product" href="">
+            <img src="./img/${product[4]}" alt="">
+        </a>
+        <div class="product-info">
+            <p class="description">algoo</p>
+            <p class="price">S/900</p>
+        </div>
+        <div class="addcar">
+            <i class='bx bxs-cart-add'></i>
+        </div>
+    </div>
+    <div class="product">
+        <a class="img-product" href="">
+            <img src="./img/${product[4]}" alt="">
+        </a>
+        <div class="product-info">
+            <p class="description">algoo</p>
+            <p class="price">S/900</p>
+        </div>
+        <div></div>
+    </div>
+    <div class="product">
+        <a class="img-product" href="">
+            <img src="./img/${product[4]}" alt="">
+        </a>
+        <div class="product-info">
+            <p class="description">algoo</p>
+            <p class="price">S/900</p>
+        </div>
+    </div>
+    <div class="product">
+        <a class="img-product" href="">
+            <img src="./img/${product[4]}" alt="">
+        </a>
+        <div class="product-info">
+            <p class="description">algoo</p>
+            <p class="price">S/900</p>
+        </div>
+    </div>
+</section>
+<div id="btn_shopcar" class="cont-shopcar" style="display: none;">
+    <button type="button" class="btn btn-primary shopcar" onclick="window.location.href='/pay'">
+        <i class="bx bxs-cart"></i>
+        <span id="span_shopcar" class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger"></span>
+    </button>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+<script src="./js/home.js"></script>

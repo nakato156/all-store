@@ -1,0 +1,23 @@
+.product{
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.info{
+    width: 100%;
+}
+.img-product{
+    width: 450px;
+    height: 500px;
+}
+.more-actions{
+    width: 100%;
+    display: flex;
+    margin-top: 10px;
+    justify-content: end;
+}
+.more-actions>i{
+    cursor: pointer;
+    margin-right: 5px;
+    font-size: 28px;
+}

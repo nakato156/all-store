@@ -1,0 +1,40 @@
+<body>
+    <section class="login" style="max-width:600px;margin:auto;padding-top:25px;">
+        <form class="row g-3" id="form_registro">
+            <div class="col-md-6">
+                <label for="inputName" class="form-label">Nombres</label>
+                <input name="nombres" type="text" class="form-control" id="inputName">
+            </div>
+            <div class="col-md-6">
+                <label for="inputApellidos" class="form-label">Apellidos</label>
+                <input name="apellidos" type="text" class="form-control" id="inputApellidos">
+            </div>
+            <div class="mb-3">
+                <label for="InputEmail" class="form-label">Correo Electronico</label>
+                <input name="email" type="email" class="form-control" id="InputEmail" aria-describedby="emailHelp">
+                <div id="emailHelp" class="form-text">Utilice un correo electronico válido de su preferencia.</div>
+            </div>
+            <div class="mb-3">
+                <label for="InputPhone" class="form-label">Teléfono</label>
+                <input name="phone" type="number" class="form-control" id="InputPhone">
+            </div>
+            <div class="mb-3">
+                <label for="InputDNI" class="form-label">DNI</label>
+                <input name="dni" type="text" class="form-control" id="InputDNI">
+            </div>
+            <div class="mb-3">
+                <label for="InputPassword" class="form-label">Contraseña</label>
+                <input name="password" type="password" class="form-control" id="InputPassword">
+            </div>
+            <div class="mb-3 form-check">
+                <input type="checkbox" class="form-check-input" id="termCond">
+                <label class="form-check-label" for="termCond"><a href="../terminos-y-condiciones">Acepto los terminos y condiciones</a></label>
+            </div>
+            <div class="col-12">
+                <button type="submit" class="btn btn-primary">Registrarse</button>
+            </div>
+        </form>
+    </section>
+</body>
+</html>
+<script src="../js/registro.js"></script>
